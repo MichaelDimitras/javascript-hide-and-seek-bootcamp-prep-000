@@ -15,5 +15,3 @@ function increaseRankBy(n){
     i.innerHTML = parseInt(i.innerHTML) + n;
   }
 }
-
-function deepest
