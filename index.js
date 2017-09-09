@@ -20,6 +20,19 @@ function deepestChild(){
 
   var grand = document.querySelectorAll('div#grand-node');
 
+
+
+}
+
+
+function dfs(arr){
+
+  var s = [];
+  var v = {};
+
+  s.push(arr[0]);
+
   
+
 
 }
