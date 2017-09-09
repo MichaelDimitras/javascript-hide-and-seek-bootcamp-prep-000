@@ -33,7 +33,7 @@ function dfs(arr, criteria){
     // array above; `next` is itself an array that keeps
     // track of the elements (which might be arrays!) that
     // we haven't looked at yet
-  let current = arr
+  let curr = arr
   let next = []
 
     // hey, a `while` loop! this loop will only
@@ -41,12 +41,12 @@ function dfs(arr, criteria){
     // we exhaust `next` and, below, attempt to
     // `shift()` `undefined` (when `next` is empty)
     // onto `current`, we'll exit the loop
-  while (current) {
+  while (curr) {
       // if `current` satisfies the `criteriaFn`, then
       // return it — recall that `return` will exit the
       // entire function!
-      if (criteriaFn(current)) {
-        return current
+      if (criteriaFn(cur)) {
+        return curr
       }
 
       // if `current` is an array, we want to push all of
