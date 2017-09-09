@@ -28,11 +28,11 @@ function deepestChild(){
 function dfs(arr){
 
   var s = [];
-  var v = {};
+  var v = Array(arraySize).fill(value);
+
 
   s.push(arr[0]);
-
-  
+  v
 
 
 }
