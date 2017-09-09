@@ -28,7 +28,7 @@ function deepestChild(){
 function dfs(arr){
 
   var s = [];
-  var v = Array(arraySize).fill(value);
+  var v = Array(arr.length).fill(0);
 
 
   s.push(arr[0]);
